@@ -1,0 +1,24 @@
+.botao {
+    background-color: var(--amarelo);
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    width: 100%;
+    border: none;
+    box-shadow: var(--sombra-amarela)
+}
+
+.botao--alternativo {
+    background-color: unset;
+
+    color: var(--amarelo);
+
+    border: 1px solid var(--amarelo);
+
+    box-shadow: none;
+}

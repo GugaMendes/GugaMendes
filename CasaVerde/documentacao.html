@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+            <title> Home / Casa Verde</title>
+            <link href="../assets/componentes/style.css" rel="stylesheet">
+            <link rel="stylesheet" href="../assets/componentes/cabecalho.css">
+            <link rel="stylesheet" href="../assets/componentes/input.css">
+            <link rel="stylesheet" href="../assets/componentes/cartao.css">
+            <link rel="stylesheet" href="../assets/componentes/item.css">
+            <link rel="stylesheet" href="../assets/componentes/produtos.css">
+            <link rel="stylesheet" href="../assets/componentes/cartao-video.css">
+            <link rel="stylesheet" href="../assets/componentes/rodape.css">
+        </head> 
+
+        <body>
+            <header class="container cabecalho cabecalho--alinhamento">
+                <img src="../assets/img/logo.svg" alt="Logo da Casa Verde" class="cabecalho__logo">
+                <a href="#" class="cabecalho__carrinho">
+                    <img src="../assets/icones/carrinho.svg" alt="Carrinho de compras">
+                </a>
+            </header>
+            <div class="container">
+                <button class="botao">Assine Newslatter</button>
+                <button class="botao botao--alternativo">Outro botão</button>
+                <input type="text" class="input input--icone input--mail" placeholder="Insira seu e-mail" aria-label="Insira seu e-mail">
+                <article class="cartao">
+                    <h2 class="titulo alinhamento-centro">Como conseguir<span class="titulo-destaque">minha planta</span></h2>
+                    <ul class="item__lista">
+                        <li class="item">
+                            <span class="item__icone item__icone-cursor"></span>
+                            <p>Escolha suas plantas</p>
+                        </li>
+                        <li class="item">
+                            <span class="item__icone item__icone-carrinho"></span>
+                            <p>Faça seu pedido</p>
+                        </li>
+                        <li class="item">
+                            <span class="item__icone item__icone-caminhao"></span>
+                            <p>Aguarde na sua casa</p>
+                        </li>
+                    </ul>
+                </article>
+                <article class="produto">
+                    <img src="../assets/img/produto-01.png" alt="Foto produto" class="produto__img">
+                    <div class="produto__conteudo alinhamento-esquerda">
+                        <h3 class="produto__titulo titulo-destaque">Ajuga
+                            reptans</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a href="" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                    </div>
+                </article>
+                <article class="cartao-video">
+                    <div class="cartao-video__video">
+                    <img src="../assets/img/video-1.png" alt="Banner do video" class="cartao-video__img"></img>
+                    </div>
+                    <h3 class="cartao-video__titulo">Video XYZ</h3>
+                    <p>Postado em março de 2022</p>
+                </article>
+            </div>
+            <footer class="container rodape">
+                <img src="../assets/img/logo.svg" alt="Logo da Casa Verde" class="rodape__logo">
+                <ul class="rodape__social">
+                    <li><a href="#" class="rodape__social--media" title=""><img src="../assets/icones/facebook.svg" alt="Ícone do Facebook"></a></li>
+                    <li><a href="#" class="rodape__social--media" title=""><img src="../assets/icones/twitter.svg" alt="Ícone do Twitter"></a></li>
+                    <li><a href="#" class="rodape__social--media" title=""><img src="../assets/icones/instagram.svg" alt="Ícone do Instagram"></a></li>
+                </ul>
+                <address class="rodape__unidade texto">
+                    <span class="rodape__unidade--titulo">Rio de Janeiro</span>
+                    <p>
+                       Rua Siqueira Campos, 171, 303<br>
+                       Copacabana<br>
+                       Telefone: (21) 99876-0099
+                    </p>
+                </address>
+                <address class="rodape__unidade texto">
+                    <span class="rodape__unidade--titulo">São Paulo</span>
+                    <p>
+                        Rua Anita Garibaldi, 33, 13<br>
+                        Sé<br>
+                        Telefone: (11) 99875-2201
+                    </p>
+                </address>
+            </footer>
+        </body>
+
+    </html>

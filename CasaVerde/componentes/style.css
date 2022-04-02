@@ -1,0 +1,53 @@
+@import url(../componentes/reset.css);
+@import url(../componentes/botao.css);
+@import url(../componentes/_variantes.css);
+
+body {
+    background: url(../img/fundo.png), url(../img/linhas.png);
+    background-position: center;
+    color: var(--cinza);
+
+    font-family: var(--fonte-corpo);
+    font-weight: var(--peso-corpo);
+    font-size: var(--fonte-tamanho);
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-video {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.titulo {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+
+    font-size: var(--tamanho-titulo);
+    font-weight: var(--peso-titulo);
+}
+
+.titulo-destaque {
+    font-family: var(--fonte-titulo-destaque);
+    font-weight: var(--peso-titulo-destaque);
+    color: var(--preto);
+    font-size: var(--tamanho-titulo-destaque);
+    display: block;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.alinhamento-centro {
+    text-align: center;
+}
+
+.alinhamento-esquerda {
+    text-align: left;
+}
+
+.texto {
+    line-height: 26px;
+}
